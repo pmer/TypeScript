@@ -9172,6 +9172,10 @@ interface HTMLVideoElement extends HTMLMediaElement {
      */
     poster: string;
     /**
+     * Gets or sets a hint for the user agent to display video content within the element's playback area.
+     */
+    playsInline: boolean;
+    /**
      * Gets the intrinsic height of a video in CSS pixels, or zero if the dimensions are not known.
      */
     readonly videoHeight: number;
